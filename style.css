@@ -3,5 +3,9 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 10px;
+  gap: 6px;
+}
+#statement h1,
+#statement p {
+  margin: 0;
 }
