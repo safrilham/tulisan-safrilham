@@ -15,3 +15,21 @@
 #main {
   font-family: sans-serif;
 }
+
+#topmenu ul {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+#topmenu a {
+  text-decoration: none;
+  color: #FCA311;
+  font-weight: bold;
+}
+
+#topmenu a:hover {
+  color: white;
+}
+
