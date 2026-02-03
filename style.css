@@ -12,4 +12,6 @@
 #statement h1,
 #statement p {
   margin: 0;
+#main {
+  font-family: sans-serif;
 }
