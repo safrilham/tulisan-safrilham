@@ -24,22 +24,23 @@
   color: #333;
 }
 
-/* Menu navigasi */
+/* Menu navigasi horizontal putih */
 #topmenu ul {
-  display: flex;
-  gap: 20px;
+  display: flex;             /* horizontal */
+  gap: 20px;                 /* jarak antar menu */
   padding: 0;
   list-style: none;
-  justify-content: center; /* agar menu berada di tengah */
+  justify-content: center;   /* agar menu berada di tengah halaman */
 }
 
 #topmenu a {
   text-decoration: none;
-  color: #FCA311;
+  color: white;              /* warna putih */
   font-weight: bold;
   transition: color 0.3s;
 }
 
 #topmenu a:hover {
-  color: white;
+  color: #FCA311;            /* highlight saat hover */
 }
+
