@@ -1,4 +1,4 @@
-/* Section Header */
+/* Header Section */
 #statement {
   display: flex;
   flex-direction: column;
@@ -8,39 +8,37 @@
   font-family: 'Arial', sans-serif;
   padding: 40px 20px;
   text-align: center;
-  gap: 6px;
+  gap: 20px;
 }
 
-#statement h1,
-#statement p {
+/* Menu Navigasi Horizontal */
+#topmenu {
+  width: 100%;              /* full width agar menu horizontal */
+}
+
+#topmenu ul {
+  display: flex;            /* menjadikan horizontal */
+  flex-direction: row;      /* arah horizontal */
+  justify-content: center;  /* menu di tengah */
+  align-items: center;      /* vertikal align */
+  padding: 0;
+  margin: 0;
+  list-style: none;         /* hilangkan bullet */
+  gap: 30px;                /* jarak antar menu */
+}
+
+#topmenu li {
   margin: 0;
 }
 
-/* Konten utama */
-#content {
-  font-family: sans-serif;
-  padding: 20px;
-  line-height: 1.6;
-  color: #333;
-}
-
-/* Menu navigasi horizontal putih */
-#topmenu ul {
-  display: flex;             /* horizontal */
-  gap: 20px;                 /* jarak antar menu */
-  padding: 0;
-  list-style: none;
-  justify-content: center;   /* agar menu berada di tengah halaman */
-}
-
 #topmenu a {
+  color: white;             /* menu putih */
   text-decoration: none;
-  color: white;              /* warna putih */
   font-weight: bold;
+  padding: 5px 10px;       /* bisa untuk klik area lebih luas */
   transition: color 0.3s;
 }
 
 #topmenu a:hover {
-  color: #FCA311;            /* highlight saat hover */
+  color: #FCA311;           /* highlight saat hover */
 }
-
